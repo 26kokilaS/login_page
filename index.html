@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <style>
+        nav{display: flex;
+            justify-content: flex-end; 
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 50px;
+            width: 100%;
+            align-items: center;
+            background: black;
+            padding-right: 30px; 
+            box-sizing: border-box;
+            
+        }
+    </style>
+</head>
+<body>
+   <nav>
+        <h3 style="color:white">kokila</h3>
+    </nav>
+    
+    <div style="display:flex;align-items:center;justify-content:center;height:100vh;width:100%;background:rgb(195,195,195);">
+    
+    <form action="#" style="border:1px solid black;padding:20px;background:white;">
+        <h2 style="justify-content:center;align-items:center;margin-right:50;">LOGIN FORM</h2>
+        <div>
+            <label for="Name">Student Name:</label>
+            <input type="text" name="name" id="email">
+        </div>
+        <br>
+        <div
+            <label for="Email">Student Email:</label>
+            <input type="email" name="Email_id" id="email">
+        </div>
+        <br>
+        <div>
+            <select name =Department>
+                <option value="">Select dept</option>
+                <option value="CSE">CSE</option>
+                <option value="AI&S">AI&DS</option>
+                <option value="EEE">EEE</option>
+                <option value="IT">IT</option>
+                <option value="ECE">ECE</option>
+            </select>
+        </div>
+            <br>
+        <div>
+            <h3>District</h3>
+            <label><input type="checkbox" name=offerlist>Salem</label>
+            <label><input type="checkbox" name=offerlist>Dharmapuri</label>
+            <label><input type="checkbox" name=offerlist>Erode</label>
+            <label><input type="checkbox" name=offerlist>coimbatore</label>
+        </div>
+        <br>    
+        <div>
+            <h3>Gender</h3>
+            <label><input type="radio" name="offerlist">Female</label>
+            <label><input type="radio" name="offerlist">Male</label>
+        </div>
+
+        <br>
+        <div style="text-align:center;">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>
